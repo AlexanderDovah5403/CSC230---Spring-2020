@@ -19,10 +19,13 @@ html {
 body {
     background-color: white;
     font-family: Verdana, Geneva, Arial, sans-serif;
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+    margin: 20px auto;  /* I commented out the four lines above and replaced with this */
+    max-width: 960px;
+    min-width: 320px;
     position: relative;
     width: 95%;
 }
